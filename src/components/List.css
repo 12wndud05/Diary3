@@ -1,0 +1,54 @@
+.table-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  position: relative; 
+}
+
+.table-header {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+background-color: #D8BFD8;
+color: white;
+}
+
+.sort-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diary-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.diary-table th,
+.diary-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.diary-table th:nth-child(1),
+.diary-table td:nth-child(1) {
+  border-right: 1px solid #ddd;
+}
+
+.diary-table th {
+  border-bottom: 2px solid #ddd;
+}

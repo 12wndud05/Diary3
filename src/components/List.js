@@ -1,8 +1,8 @@
 import React from 'react';
-import './DiaryTable.css';
+import './List.css';
 import WriteButton from './WriteButton';
 
-const DiaryTable = ({ diaries, onToggleOrder }) => (
+const List = ({ diaries, onToggleOrder }) => (
   <div className="table-container">
     <div className="table-header">
       <h2>목록</h2>
@@ -34,4 +34,4 @@ const DiaryTable = ({ diaries, onToggleOrder }) => (
   </div>
 );
 
-export default DiaryTable;
+export default List;
